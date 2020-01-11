@@ -1,0 +1,36 @@
+@import "./normalize.css";
+
+/* div,span{
+  -webkit-tap-highlight-color: transparent;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* 解决移动端滑动不流畅的bug */
+body {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
